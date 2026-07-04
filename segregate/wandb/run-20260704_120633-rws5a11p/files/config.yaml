@@ -1,0 +1,53 @@
+_wandb:
+    value:
+        cli_version: 0.24.0
+        e:
+            zaqs4pb1tlskcdfqoye2p7t7iwafsj26:
+                args:
+                    - --input_artifact
+                    - preprocessed_data.csv:latest
+                    - --artifact_root
+                    - data
+                    - --artifact_type
+                    - segregated_data
+                    - --test_size
+                    - "0.3"
+                    - --random_state
+                    - "42"
+                    - --stratify
+                    - genre
+                codePath: segregate/run.py
+                codePathLocal: run.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "2160158191616"
+                        used: "427252797440"
+                email: lochan.1209@gmail.com
+                executable: /home/student/.conda/envs/mlflow-fffcf19dff5f62f9470b9cf95e5eaac3bc5934ff/bin/python
+                git:
+                    commit: 419361dcb81e3603097b4baa677fa3e8cfe395fb
+                    remote: https://github.com/lochan1209/genre_classification.git
+                host: f2bc48cb43052818c1b022789b3fa9188ccf301d-6676cbd8b6-sdx9p
+                memory:
+                    total: "135077654528"
+                os: Linux-6.6.97+-x86_64-with-glibc2.36
+                program: /workspace/genre_classification/segregate/run.py
+                python: CPython 3.13.14
+                root: /workspace/genre_classification/segregate
+                startedAt: "2026-07-04T12:06:33.955788Z"
+                writerId: zaqs4pb1tlskcdfqoye2p7t7iwafsj26
+        m: []
+        python_version: 3.13.14
+        t:
+            "1":
+                - 5
+                - 53
+            "2":
+                - 5
+                - 53
+            "4": 3.13.14
+            "5": 0.24.0
+            "12": 0.24.0
+            "13": linux-x86_64

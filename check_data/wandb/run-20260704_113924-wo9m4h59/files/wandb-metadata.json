@@ -1,0 +1,37 @@
+{
+  "os": "Linux-6.6.97+-x86_64-with-glibc2.36",
+  "python": "CPython 3.13.14",
+  "startedAt": "2026-07-04T11:39:24.105901Z",
+  "args": [
+    "-s",
+    "-vv",
+    ".",
+    "--reference_artifact",
+    "exercise_14/preprocessed_data.csv:latest",
+    "--sample_artifact",
+    "preprocessed_data.csv:latest",
+    "--ks_alpha",
+    "0.05"
+  ],
+  "program": "/home/student/.conda/envs/mlflow-cd65784bf8e7fffc45c3ae66d3b5f5d3b28be86d/bin/pytest",
+  "git": {
+    "remote": "https://github.com/lochan1209/genre_classification.git",
+    "commit": "419361dcb81e3603097b4baa677fa3e8cfe395fb"
+  },
+  "email": "lochan.1209@gmail.com",
+  "root": "/workspace/genre_classification/check_data",
+  "host": "f2bc48cb43052818c1b022789b3fa9188ccf301d-6676cbd8b6-sdx9p",
+  "executable": "/home/student/.conda/envs/mlflow-cd65784bf8e7fffc45c3ae66d3b5f5d3b28be86d/bin/python3.13",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "disk": {
+    "/": {
+      "total": "2160158191616",
+      "used": "424851038208"
+    }
+  },
+  "memory": {
+    "total": "135077654528"
+  },
+  "writerId": "377ar4krtutitfckctp8q4hqc995nsgb"
+}

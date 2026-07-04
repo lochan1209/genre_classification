@@ -1,0 +1,47 @@
+_wandb:
+    value:
+        cli_version: 0.24.0
+        e:
+            esdn913zzkznkse4l6zodkjexgo34aev:
+                args:
+                    - --model_export
+                    - model_export:latest
+                    - --test_data
+                    - data_test.csv:latest
+                codePath: evaluate/run.py
+                codePathLocal: run.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "2160158191616"
+                        used: "427692265472"
+                email: lochan.1209@gmail.com
+                executable: /home/student/.conda/envs/mlflow-20899d9f93a243b3c2d61cb7fff078f5eab98f1b/bin/python
+                git:
+                    commit: 419361dcb81e3603097b4baa677fa3e8cfe395fb
+                    remote: https://github.com/lochan1209/genre_classification.git
+                host: f2bc48cb43052818c1b022789b3fa9188ccf301d-6676cbd8b6-sdx9p
+                memory:
+                    total: "135077654528"
+                os: Linux-6.6.97+-x86_64-with-glibc2.36
+                program: /workspace/genre_classification/evaluate/run.py
+                python: CPython 3.13.14
+                root: /workspace/genre_classification/evaluate
+                startedAt: "2026-07-04T12:02:41.711477Z"
+                writerId: esdn913zzkznkse4l6zodkjexgo34aev
+        m: []
+        python_version: 3.13.14
+        t:
+            "1":
+                - 5
+                - 53
+            "2":
+                - 5
+                - 53
+            "3":
+                - 62
+            "4": 3.13.14
+            "5": 0.24.0
+            "12": 0.24.0
+            "13": linux-x86_64

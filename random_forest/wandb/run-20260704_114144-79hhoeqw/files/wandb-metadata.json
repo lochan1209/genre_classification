@@ -1,0 +1,42 @@
+{
+  "os": "Linux-6.6.97+-x86_64-with-glibc2.36",
+  "python": "CPython 3.13.14",
+  "startedAt": "2026-07-04T11:41:44.413841Z",
+  "args": [
+    "--train_data",
+    "data_train.csv:latest",
+    "--model_config",
+    "/workspace/genre_classification/outputs/2026-07-04/11-38-08/random_forest_config.yml",
+    "--export_artifact",
+    "model_export",
+    "--random_seed",
+    "42",
+    "--val_size",
+    "0.3",
+    "--stratify",
+    "genre"
+  ],
+  "program": "/workspace/genre_classification/random_forest/run.py",
+  "codePath": "random_forest/run.py",
+  "codePathLocal": "run.py",
+  "git": {
+    "remote": "https://github.com/lochan1209/genre_classification.git",
+    "commit": "419361dcb81e3603097b4baa677fa3e8cfe395fb"
+  },
+  "email": "lochan.1209@gmail.com",
+  "root": "/workspace/genre_classification/random_forest",
+  "host": "f2bc48cb43052818c1b022789b3fa9188ccf301d-6676cbd8b6-sdx9p",
+  "executable": "/home/student/.conda/envs/mlflow-484df64d71fdfb8fbb5f48803452d41c922ae5e3/bin/python",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "disk": {
+    "/": {
+      "total": "2160158191616",
+      "used": "426954502144"
+    }
+  },
+  "memory": {
+    "total": "135077654528"
+  },
+  "writerId": "d8rx9ji6xb69eg0xntjx7p2b1mhyh5i1"
+}
